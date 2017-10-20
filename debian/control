@@ -1,0 +1,19 @@
+Source: libnet-mpd-perl
+Section: perl
+Priority: optional
+Maintainer: Fritz Reichwald <reichwald@b1-systems.de>
+Build-Depends: debhelper (>= 10.0),
+	       libtest-harness-perl,
+	       libmodule-build-tiny-perl
+Standards-Version: 4.1.1
+Homepage: https://github.com/bentglasstube/Net-MPD
+
+Package: libnet-mpd-perl
+Architecture: all
+Depends: perl,
+         ${perl:Depends},
+         ${misc:Depends}
+Suggests:
+Description: Net::MPD - Communicate with an MPD server
+ Net::MPD is designed as a lightweight replacment for Audio::MPD which depends
+ on Moose and is no longer maintained.

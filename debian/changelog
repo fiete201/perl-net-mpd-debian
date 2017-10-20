@@ -1,0 +1,5 @@
+libnet-mpd-perl (0.07) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Fritz Reichwald <reichwald@b1-systems.de>  Fri, 20 Oct 2017 17:01:05 +0200
