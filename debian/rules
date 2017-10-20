@@ -4,4 +4,4 @@
 
 override_dh_auto_install:
 	dh_auto_install
-	rm -f debian/libnet-mpd-perl/usr/share/man/man3/Net\:\:MPD\:\:Response.3pm.gz
+	rm -f debian/libnet-mpd-perl/usr/share/man/man3/Net::MPD::Response.3pm.gz
